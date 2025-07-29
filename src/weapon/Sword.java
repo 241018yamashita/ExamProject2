@@ -1,4 +1,11 @@
-package PACKAGE_NAME;
+package weapon;
 
-public class Sword {
+public class Sword extends Weapon {
+    public Sword() {
+        super("剣", 10);
+    }
+
+    public String attackMessage() {
+        return "で切りつけた！";
+    }
 }
